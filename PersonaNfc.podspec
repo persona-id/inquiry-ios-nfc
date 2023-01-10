@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'PersonaNfc'
-  s.version      = '2.5.7'
+  s.version      = '2.5.8'
   s.summary      = 'Persona Inquiry Nfc SDK'
   s.homepage     = 'https://github.com/persona-id/inquiry-ios-nfc'
   s.author       = 'Persona Identities, Inc.'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = 'ios'
   s.ios.deployment_target = '11.0'
 
-  s.source       = { :http => 'https://github.com/persona-id/inquiry-ios-nfc/releases/download/2.5.7/PersonaNfc.zip' }
+  s.source       = { :http => 'https://github.com/persona-id/inquiry-ios-nfc/releases/download/2.5.8/PersonaNfc.zip' }
   s.vendored_frameworks = 'PersonaNfc.xcframework'
 
   # 1.7 is needed for `swift_versions` support
