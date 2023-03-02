@@ -14,7 +14,7 @@ let package = Package(
     .binaryTarget(
       name: "PersonaNfc",
       url: "https://github.com/persona-id/inquiry-ios-nfc/releases/download/2.7.1/PersonaNfc.xcframework.zip",
-      checksum: "1f57e9b6c8d155899854ab6779b5f0f5f975ddabc3f6a4c87b563bc69e2b29d1"
+      checksum: "88e891b0bafecd3570cdff128495c23aa2d5c4d7d9929ae0057fa514b2584082"
     )
   ]
 )
