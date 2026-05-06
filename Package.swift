@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PersonaNfc",
-      url: "https://github.com/persona-id/inquiry-ios-nfc/releases/download/2.46.0/PersonaNfc.xcframework.zip",
-      checksum: "dc7ec3cca197ed82363e9f390746fe18e2bfbe5848023bdc0e67bb78224f677c"
+      url: "https://github.com/persona-id/inquiry-ios-nfc/releases/download/2.47.0-RC/PersonaNfc.xcframework.zip",
+      checksum: "dea8eddcf8c21c94361f5225b389527da74c30db120a6b8eef0c75c5556d6614"
     )
   ]
 )
