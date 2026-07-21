@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "PersonaNfc",
-  platforms: [.iOS("15.0")],
+  platforms: [.iOS(.v15)],
   products: [
     .library(
       name: "PersonaNfc",
@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PersonaNfc",
-      url: "https://github.com/persona-id/inquiry-ios-nfc/releases/download/3.5.0/PersonaNfc.xcframework.zip",
-      checksum: "02c9f71e2e16342a17d1ed0fb8e34654195db05392c0f8dba2d76e34aabc5112"
+      url: "https://storage.googleapis.com/sdk.withpersona.com/ios/v2/releases/2.51.1-beta.3/PersonaNfc.xcframework.zip",
+      checksum: "92299352db983b039950076d70b2f46c484f7c2c0640babe9fe526b424898a1a"
     )
   ]
 )
